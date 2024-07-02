@@ -1,0 +1,48 @@
+body {
+    background-color: gainsboro;
+    font-family: Arial, sans-serif; /* Specify a fallback font */
+}
+
+.logo {
+    float: left;
+    padding-right: 2em; /* Adjusted padding */
+}
+
+.cover-container {
+    max-width: 55em;
+    margin: 0 auto; /* Center align the container */
+}
+
+.nav-masthead .nav-link {
+    padding: 1rem 1.5rem;
+    font-weight: 700;
+    color: black;
+    text-decoration: none; /* Remove underline */
+}
+
+.nav-masthead .nav-link + .nav-link {
+    margin-left: 1rem;
+}
+
+.nav-masthead .active {
+    color: black;
+    border-bottom-color: red;
+}
+
+.card-deck {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+p.cardtext {
+    margin-top: 60px;
+    text-align: left;
+    font-size: 14px; /* Increased font size for better readability */
+}
+
+p.cardtext2 {
+    text-align: left;
+    margin-top: 25px;
+    font-size: 14px; /* Adjusted font size */
+}
